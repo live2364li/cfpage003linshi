@@ -2,7 +2,7 @@ export default {
     async fetch(request, env) {
       let url = new URL(request.url);
       if (url.pathname.startsWith('/')) {
-        url.hostname="https://late-dream-af37.l4535svip.workers.dev";
+        url.hostname="gsdgdfhf.herokuapp.com";
         let new_request=new Request(url,request);
         return fetch(new_request);
       }
